@@ -1,6 +1,16 @@
-# dune init project P4
+# dune exec P4
 # OCAMLPARAM: unset
 # Shared cache: enabled-except-user-rules
 # Shared cache location: /home/lucasmoerch/.cache/dune/db
 # Workspace root: /home/lucasmoerch/AAU/P4
 # Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/lucasmoerch/.opam/default/bin/ocamlc.opt -config > /tmp/dune_5f36ed_output
